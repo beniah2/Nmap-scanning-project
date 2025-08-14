@@ -35,7 +35,7 @@ This step involves identifying the services being used by the host machine (targ
 
   ---
   ### Step 5: Discovering service version vulnerabilities
-  We selected one of the identified services and searched for the version's vulnerabilities:Microsoft Windows netbios-ssn
+  We selected one of the identified services and searched for the version's vulnerabilities: Microsoft Windows netbios-ssn
 
   Below are the results of the vulnerabilities discovered:
   
@@ -52,7 +52,7 @@ This step involves identifying the services being used by the host machine (targ
   Attackers can forge "name conflict" packets, causing Windows systems to unregister their NetBIOS name and lose network functionality.
  
 
-  ### Mitigation reccomendations
+  ### Mitigation recomendations
   1. Apply Security Patches:
   Install all Microsoft updates that fix known NetBIOS and WINS vulnerabilities (e.g., MS16-077, MS09-039, MS00-047).
 
