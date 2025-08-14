@@ -35,7 +35,8 @@ This step involves identifying the services being used by the host machine (targ
 
   ---
   ### Step 5: Discovering service version vulnerabilities
-  We selected one of the identified services and searched for the version's vulnerabilities:    Microsoft Windows netbios-ssn
+  We selected one of the identified services and searched for the version's vulnerabilities:Microsoft Windows netbios-ssn
+
   Below are the results of the vulnerabilities discovered:
   
   1. Spoofing Attacks (CVE-2016-3299):
