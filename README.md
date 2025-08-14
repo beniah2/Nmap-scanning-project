@@ -25,7 +25,7 @@ This step involves identifying open ports on the host machine that can lead to a
   <img width="689" height="330" alt="image" src="https://github.com/user-attachments/assets/063fd117-d94e-4c2c-a24e-cbac1ea51792" />
 
   ---
-### Step 4:Identify Services
+### Step 4: Identify Services
 This step involves identifying the services being used by the host ip address.
 
 **Procedure**
