@@ -25,5 +25,15 @@ This step involves identifying open ports on the host machine that can lead to a
   <img width="689" height="330" alt="image" src="https://github.com/user-attachments/assets/063fd117-d94e-4c2c-a24e-cbac1ea51792" />
 
   ---
+### Step 4:Identify Services
+This step involves identifying the services being used by the host ip address.
+
+**Procedure**
+* Select any of the ip addresses in the network.
+* Use the nmap command to identify services (nmap -sV 172.20.10.5<host ip address>)
+  <img width="689" height="414" alt="image" src="https://github.com/user-attachments/assets/d19d9233-86d1-484b-a49d-7118cbefcae8" />
+
+  ---
+
 
 
