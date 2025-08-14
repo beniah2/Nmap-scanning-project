@@ -26,11 +26,11 @@ This step involves identifying open ports on the host machine that can lead to a
 
   ---
 ### Step 4: Identify Services
-This step involves identifying the services being used by the host ip address.
+This step involves identifying the services being used by the host machine (target).
 
 **Procedure**
 * Select any of the ip addresses in the network.
-* Use the nmap command to identify services (nmap -sV 172.20.10.5<host ip address>)
+* Use the nmap command to identify services (nmap -sV 172.20.10.5<target ip address>)
   <img width="689" height="414" alt="image" src="https://github.com/user-attachments/assets/d19d9233-86d1-484b-a49d-7118cbefcae8" />
 
   ---
