@@ -1,7 +1,7 @@
 # Nmap-scanning-project
 Aimed at identifying network devices, uncovering open ports, and checking for vulnerabilities.
 
-### Step 1
+### Step 1: 
 To scan our devices(host) for open ports, we need to first identify its ip address.
 
 **Procedure**
@@ -9,3 +9,9 @@ To scan our devices(host) for open ports, we need to first identify its ip addre
 * Type "ipconfig". This will display all Ip addresses; and select the interface you are using, in this case, the wireless interface.
   
 <img width="755" height="752" alt="image" src="https://github.com/user-attachments/assets/18ee4674-d310-4880-a2e0-7975a15625cb" />
+
+### Step 2: Finding network range
+To find the network range of all the IP addresses currently connected in the same network(subnet). Type nmap -sn 172.20.10.0/24. Since the host ip is 172.20.10.5, then the network is 172.20.10.0/24
+<img width="684" height="537" alt="image" src="https://github.com/user-attachments/assets/db3a915c-6609-4831-a26a-a25df88b77d6" />
+
+
