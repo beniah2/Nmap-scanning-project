@@ -34,6 +34,16 @@ This step involves identifying the services being used by the host machine (targ
   <img width="689" height="414" alt="image" src="https://github.com/user-attachments/assets/d19d9233-86d1-484b-a49d-7118cbefcae8" />
 
   ---
+  ### Step 5: Discovering service version vulnerabilities
+  We selected one of the identified services and searched for the version's vulnerabilities:    Microsoft Windows netbios-ssn
+  Below are the results of the vulnerabilities discovered:
+  <img width="1199" height="543" alt="image" src="https://github.com/user-attachments/assets/765d4b27-7635-467f-aea5-4868f3ea9a35" />
+
+  ### Mitigation reccomendations
+  Disable NetBIOS over TCP/IP where it's not needed—e.g., in network adapter settings or via the registry or DHCP options.
+  Block NetBIOS-related firewall ports like 137, 138, and 139 at network edges to reduce exposure.
+  Ensure all relevant Windows updates and patches are applied, especially the ones referencing MS00‑047, MS08‑034, MS16‑077, etc.
+
 
 
 
